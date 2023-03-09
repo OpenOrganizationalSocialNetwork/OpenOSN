@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>65c52d65-3db3-44f5-9bda-fc21493ada5b.SCHEMA:openosn.public</OriginalElement>
+  <nodes>
+    <node x="167.83333333333331" y="214.5">65c52d65-3db3-44f5-9bda-fc21493ada5b.TABLE:openosn.public.team</node>
+    <node x="2.8333333333332575" y="214.5">65c52d65-3db3-44f5-9bda-fc21493ada5b.TABLE:openosn.public.role</node>
+    <node x="-210.1666666666667" y="152.0">65c52d65-3db3-44f5-9bda-fc21493ada5b.TABLE:openosn.public.user</node>
+    <node x="-209.1666666666667" y="-33.0">65c52d65-3db3-44f5-9bda-fc21493ada5b.TABLE:openosn.public.file</node>
+    <node x="36.077083333333235" y="412.0">65c52d65-3db3-44f5-9bda-fc21493ada5b.TABLE:openosn.public.team_members</node>
+    <node x="-216.4979166666667" y="424.5">65c52d65-3db3-44f5-9bda-fc21493ada5b.TABLE:openosn.public.favorite_users</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="65c52d65-3db3-44f5-9bda-fc21493ada5b.TABLE:openosn.public.team_members" target="65c52d65-3db3-44f5-9bda-fc21493ada5b.TABLE:openosn.public.role" relationship="REFERENCES">
+      <point x="0.0" y="-67.5" />
+      <point x="116.07708333333323" y="387.0" />
+      <point x="75.33333333333326" y="387.0" />
+      <point x="0.0" y="42.5" />
+    </edge>
+    <edge source="65c52d65-3db3-44f5-9bda-fc21493ada5b.TABLE:openosn.public.user" target="65c52d65-3db3-44f5-9bda-fc21493ada5b.TABLE:openosn.public.file" relationship="REFERENCES">
+      <point x="48.25" y="-105.0" />
+      <point x="47.75" y="67.5" />
+    </edge>
+    <edge source="65c52d65-3db3-44f5-9bda-fc21493ada5b.TABLE:openosn.public.file" target="65c52d65-3db3-44f5-9bda-fc21493ada5b.TABLE:openosn.public.user" relationship="REFERENCES">
+      <point x="-47.75" y="67.5" />
+      <point x="-48.25" y="-105.0" />
+    </edge>
+    <edge source="65c52d65-3db3-44f5-9bda-fc21493ada5b.TABLE:openosn.public.favorite_users" target="65c52d65-3db3-44f5-9bda-fc21493ada5b.TABLE:openosn.public.user" relationship="REFERENCES">
+      <point x="43.75" y="-55.0" />
+      <point x="-85.2479166666667" y="387.0" />
+      <point x="-113.66666666666671" y="387.0" />
+      <point x="0.0" y="105.0" />
+    </edge>
+    <edge source="65c52d65-3db3-44f5-9bda-fc21493ada5b.TABLE:openosn.public.team_members" target="65c52d65-3db3-44f5-9bda-fc21493ada5b.TABLE:openosn.public.user" relationship="REFERENCES">
+      <point x="-53.33333333333334" y="-67.5" />
+      <point x="62.74374999999992" y="387.0" />
+      <point x="-49.3333333333334" y="387.0" />
+      <point x="64.33333333333331" y="105.0" />
+    </edge>
+    <edge source="65c52d65-3db3-44f5-9bda-fc21493ada5b.TABLE:openosn.public.team_members" target="65c52d65-3db3-44f5-9bda-fc21493ada5b.TABLE:openosn.public.team" relationship="REFERENCES">
+      <point x="53.33333333333334" y="-67.5" />
+      <point x="169.4104166666666" y="387.0" />
+      <point x="240.33333333333326" y="387.0" />
+      <point x="0.0" y="42.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="false" x="61.0" y="267.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
