@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/OpenOSN.iml" filepath="$PROJECT_DIR$/.idea/OpenOSN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-apis/user-apis.iml" filepath="$PROJECT_DIR$/user-apis/user-apis.iml" />
     </modules>
   </component>
 </project>
