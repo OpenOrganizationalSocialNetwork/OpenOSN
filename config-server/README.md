@@ -6,4 +6,4 @@
 
 ```git@github.com:OpenOrganizationalSocialNetwork/OpenOSN-Config.git```
 
-#### which is below ```OpenOrganizationalSocialNetwork``` organization and ```OpenOSN``` repository 
+#### which is below ```OpenOrganizationalSocialNetwork``` organization and ```OpenOSN-Config``` repository 
