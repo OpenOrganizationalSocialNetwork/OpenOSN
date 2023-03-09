@@ -32,5 +32,5 @@
 * <b>Eureka server service:</b><br/>&emsp;This service is needed to discover all services.
 * <b>Circuit breaker service:</b><br/>&emsp;This service provides resilience and retry ability
 
-
-
+<h3>Services:</h3>
+Rests list documented <a href="./RESTS.md">hear</a>
